@@ -7,7 +7,7 @@
 }
 .left-block{
   min-width: 40%;
-  min-height: 200px;
+  height: 200px;
   margin-top: 20px;
   margin-left: 10px;
   text-align: end;
@@ -25,3 +25,4 @@
 p{
   line-height: 25px;
 }
+
