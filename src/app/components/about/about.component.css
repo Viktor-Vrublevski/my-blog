@@ -1,9 +1,14 @@
-.row{
+.row-my{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 300px;
   margin-top: 4em;
   margin-left: 1em;
   margin-right: 1em;
 }
-.col-4{
+.col-4-my{
+  min-width: 30%;
   padding-left: 5em;
 }
 #image-1{
@@ -12,7 +17,9 @@
   background-image: url("../../../assets/images/photo1.JPG");
   background-size: 105%;
 }
-.col-8{
+.col-8-my{
+  width: 65%;
+  min-height: 300px;
   padding-top: 3em;
   padding-left: 1em;
   padding-right: 4em;
@@ -26,7 +33,4 @@
 p{
   line-height: 25px;
 }
-img{
-  width: 21em;
-  height: 26em;
-}
+
