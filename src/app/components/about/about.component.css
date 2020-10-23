@@ -1,3 +1,8 @@
+.block-1{
+  width: 100%;
+  height: auto;
+  padding: 5px;
+}
 .row-my{
   display: flex;
   flex-wrap: wrap;
@@ -8,8 +13,8 @@
   margin-right: 1em;
 }
 .col-4-my{
-  min-width: 30%;
-  padding-left: 5em;
+  min-width: 20%;
+  padding-left: 3em;
 }
 #image-1{
   width: 21em;
@@ -18,11 +23,11 @@
   background-size: 105%;
 }
 .col-8-my{
-  width: 65%;
+  min-width: 60%;
   min-height: 300px;
   padding-top: 3em;
   padding-left: 1em;
-  padding-right: 4em;
+  padding-right: 2em;
 }
 #About_me{
   margin-left: 4em;
